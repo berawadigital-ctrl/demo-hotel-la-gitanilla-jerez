@@ -1,0 +1,71 @@
+# Contenido de la demo La Gitanilla (Jerez de la Frontera) (es/en/fr/de). Hechos de lagitanilla.com leidos el 02/11/2026 (ver berawa/sources.json). Sin precios ni valoraciones.
+from make_art import alts_from_art
+NOTE={'es':' Las imágenes son ilustraciones y no muestran el alojamiento real.','en':' Images are illustrations and do not show the actual property.','fr':' Les images sont des illustrations et ne montrent pas l’établissement réel.','de':' Die Bilder sind Illustrationen und zeigen nicht die tatsächliche Unterkunft.'}
+H={'es':['Áticos','Habitación Superior','Habitación Estándar','Habitación Acogedora'],'en':['Penthouses','Superior Room','Standard Room','Cosy Room'],'fr':['Attiques','Chambre Supérieure','Chambre Standard','Chambre Cosy'],'de':['Dachapartments','Superior-Zimmer','Standardzimmer','Gemütliches Zimmer']}
+RD={
+'es':['Dos áticos en lo más alto, con salida directa a la terraza y vistas al centro histórico y a la Catedral. Dormitorio, salón, baño completo y menaje.','La más amplia de la casa: vistas a la calle Barranco, balcones originales, cama de 1,80 y la única con bañera.','Seis habitaciones dobles en torno al patio central de la casa de 1865, sin TV para un descanso libre de ruidos.','La más pequeña y acogedora, con cama de matrimonio de 1,35: ideal para estancias cortas o individuales.'],
+'en':['Two penthouses at the very top, with direct access to the terrace and views of the old town and the Cathedral. Bedroom, living room, full bathroom and kitchenware.','The largest room in the house: views of calle Barranco, original balconies, a 1.80 m bed and the only one with a bathtub.','Six double rooms around the central patio of the 1865 house, without TV for noise-free rest.','The smallest and cosiest, with a 1.35 m double bed: ideal for short or solo stays.'],
+'fr':['Deux attiques tout en haut, avec accès direct à la terrasse et vue sur le centre historique et la cathédrale. Chambre, salon, salle de bains complète et vaisselle.','La plus grande de la maison : vue sur la calle Barranco, balcons d’origine, lit de 1,80 m et la seule avec baignoire.','Six chambres doubles autour du patio central de la maison de 1865, sans TV pour un repos sans bruit.','La plus petite et la plus douillette, avec un lit double de 1,35 m : idéale pour les courts séjours ou en solo.'],
+'de':['Zwei Dachapartments ganz oben, mit direktem Zugang zur Terrasse und Blick auf die Altstadt und die Kathedrale. Schlafzimmer, Wohnzimmer, komplettes Bad und Geschirr.','Das größte Zimmer des Hauses: Blick auf die Calle Barranco, originale Balkone, 1,80-m-Bett und als einziges mit Badewanne.','Sechs Doppelzimmer rund um den Innenhof des Hauses von 1865, ohne Fernseher für ungestörte Ruhe.','Das kleinste und gemütlichste, mit 1,35-m-Doppelbett: ideal für kurze Aufenthalte oder Alleinreisende.']}
+ART={
+'hero':('arches',1311,['#3b1f1a','#c8743f','#f4e3cf','#8a4b32','#5e3024','#2a1511']),
+'intro':('columns',1312,['#f6eee4','#fbf6f0','#9a4a2c','#6b5548','#3a2620']),
+'r1':('skyline',1321,['#f3e6d6','#e2b98f','#9a4a2c','#6b5548','#3a2620']),
+'r2':('arches',1322,['#3b1f1a','#d08a55','#f6e8d6','#8f5a3e','#64382a','#2b1712']),
+'r3':('columns',1323,['#eef3ea','#f7faf5','#5b7a4a','#596452','#2e3a28']),
+'r4':('hills',1324,['#f3e6d6','#ecd3b5','#d9a877','#a07a5c','#7a5a44','#4b3528']),
+'g1':('hills',1331,['#f3e6d6','#ecd3b5','#d9a877','#a07a5c','#7a5a44','#4b3528']),
+'g2':('arches',1332,['#3b1f1a','#c8743f','#f4e3cf','#8a4b32','#5e3024','#2a1511']),
+'g3':('columns',1333,['#f6eee4','#fbf6f0','#9a4a2c','#6b5548','#3a2620']),
+'g4':('skyline',1334,['#3b1f1a','#d08a55','#f6e8d6','#8f5a3e','#64382a','#2b1712'])}
+IMGS=dict(hero='hero',intro='intro',rooms=['r1','r2','r3','r4'],gallery=['g1','g2','g3','g4'])
+ALTS=alts_from_art(ART)
+T={
+'es':dict(title='La Gitanilla · Alojamiento con encanto en Jerez de la Frontera',see_rooms='Ver habitaciones',hero_k='Jerez de la Frontera · C/ Barranco, 12',hero_t='Casa típica familiar, desde 1865, en el Jerez más puro',hero_s='Una casa palacete andaluza a tres minutos a pie de la Catedral y el Alcázar.',
+ intro_t='Una casa con historia y trato familiar',intro_p1='Historia y actualidad mezcladas sin perder el encanto original de la casa. Su patio, antiguo punto de reunión de los vecinos, es hoy un salón donde leer un libro o tomar un café sin prisas.',
+ intro_p2='Como se ha mantenido la arquitectura original, todas las habitaciones son diferentes. En el interior se expone la colección de arte naif del pintor jerezano David Brenes.',
+ stats=['Casa de 1865','Patio central','Terraza con vistas a la Catedral','Habitaciones sin TV'],nav_rooms='Habitaciones',rooms_t='Habitaciones',rooms_s='Todas con baño en suite, wifi de banda ancha, calefacción y aire acondicionado, caja fuerte, secador, plancha, limpieza diaria y amenities naturales.',
+ svcs=['Terraza con vistas','Desayuno buffet','Bar honesto 24 h','Parking privado','Ayuda con traslados y organización de visitas','Wifi gratuito, aire acondicionado y calefacción'],
+ loc_p='C/ Barranco, 12 · 11403 Jerez de la Frontera (Cádiz). Teléfono: 680 795 288. Correo: info@lagitanilla.com · reservas@lagitanilla.com.',
+ chips=['¿Qué habitaciones tenéis?','¿Tenéis parking?','¿Hay desayuno?','¿Cómo reservo?']),
+'en':dict(title='La Gitanilla · Charming stay in Jerez de la Frontera',see_rooms='See rooms',hero_k='Jerez de la Frontera · C/ Barranco, 12',hero_t='A typical family house, since 1865, in the heart of Jerez',hero_s='An Andalusian mansion three minutes’ walk from the Cathedral and the Alcázar.',
+ intro_t='A house with history and a family welcome',intro_p1='History and the present blended without losing the original charm of the house. Its patio, once the neighbours’ meeting place, is now a lounge to read a book or enjoy a coffee at leisure.',
+ intro_p2='Because the original architecture has been kept, every room is different. Inside you will find the naïve art collection of Jerez painter David Brenes.',
+ stats=['House from 1865','Central patio','Terrace with Cathedral views','Rooms without TV'],nav_rooms='Rooms',rooms_t='Rooms',rooms_s='All with en-suite bathroom, broadband wifi, heating and air conditioning, safe, hairdryer, iron, daily cleaning and natural amenities.',
+ svcs=['Terrace with views','Buffet breakfast','24-hour honesty bar','Private parking','Help with transfers and organising visits','Free wifi, air conditioning and heating'],
+ loc_p='C/ Barranco, 12 · 11403 Jerez de la Frontera (Cádiz). Phone: +34 680 795 288. Email: info@lagitanilla.com · reservas@lagitanilla.com.',
+ chips=['Which rooms do you have?','Do you have parking?','Is there breakfast?','How do I book?']),
+'fr':dict(title='La Gitanilla · Hébergement de charme à Jerez de la Frontera',see_rooms='Voir les chambres',hero_k='Jerez de la Frontera · C/ Barranco, 12',hero_t='Maison familiale typique, depuis 1865, au cœur de Jerez',hero_s='Une demeure andalouse à trois minutes à pied de la cathédrale et de l’Alcázar.',
+ intro_t='Une maison chargée d’histoire et un accueil familial',intro_p1='Histoire et présent mêlés sans perdre le charme d’origine de la maison. Son patio, ancien lieu de rencontre des voisins, est aujourd’hui un salon pour lire ou prendre un café sans se presser.',
+ intro_p2='L’architecture d’origine ayant été conservée, toutes les chambres sont différentes. À l’intérieur, la collection d’art naïf du peintre jerezano David Brenes.',
+ stats=['Maison de 1865','Patio central','Terrasse avec vue sur la cathédrale','Chambres sans TV'],nav_rooms='Chambres',rooms_t='Chambres',rooms_s='Toutes avec salle de bains privative, wifi haut débit, chauffage et climatisation, coffre-fort, sèche-cheveux, fer à repasser, ménage quotidien et produits d’accueil naturels.',
+ svcs=['Terrasse avec vue','Petit-déjeuner buffet','Bar en libre-service 24 h/24','Parking privé','Aide pour les transferts et l’organisation de visites','Wifi gratuit, climatisation et chauffage'],
+ loc_p='C/ Barranco, 12 · 11403 Jerez de la Frontera (Cadix). Téléphone : +34 680 795 288. E-mail : info@lagitanilla.com · reservas@lagitanilla.com.',
+ chips=['Quelles chambres avez-vous ?','Avez-vous un parking ?','Y a-t-il un petit-déjeuner ?','Comment réserver ?']),
+'de':dict(title='La Gitanilla · Charmante Unterkunft in Jerez de la Frontera',see_rooms='Zimmer ansehen',hero_k='Jerez de la Frontera · C/ Barranco, 12',hero_t='Typisches Familienhaus seit 1865 im Herzen von Jerez',hero_s='Ein andalusisches Stadtpalais, drei Gehminuten von der Kathedrale und dem Alcázar.',
+ intro_t='Ein Haus mit Geschichte und familiärer Gastfreundschaft',intro_p1='Geschichte und Gegenwart verbunden, ohne den ursprünglichen Charme des Hauses zu verlieren. Der Innenhof, früher Treffpunkt der Nachbarn, ist heute ein Salon zum Lesen oder für einen Kaffee in Ruhe.',
+ intro_p2='Da die originale Architektur erhalten blieb, ist jedes Zimmer anders. Im Haus hängt die Sammlung naiver Kunst des Malers David Brenes aus Jerez.',
+ stats=['Haus von 1865','Innenhof','Terrasse mit Kathedralenblick','Zimmer ohne Fernseher'],nav_rooms='Zimmer',rooms_t='Zimmer',rooms_s='Alle mit eigenem Bad, Breitband-WLAN, Heizung und Klimaanlage, Safe, Föhn, Bügeleisen, täglicher Reinigung und natürlichen Pflegeprodukten.',
+ svcs=['Terrasse mit Aussicht','Frühstücksbuffet','Honesty-Bar rund um die Uhr','Privatparkplatz','Hilfe bei Transfers und Ausflugsplanung','Kostenloses WLAN, Klimaanlage und Heizung'],
+ loc_p='C/ Barranco, 12 · 11403 Jerez de la Frontera (Cádiz). Telefon: +34 680 795 288. E-Mail: info@lagitanilla.com · reservas@lagitanilla.com.',
+ chips=['Welche Zimmer gibt es?','Gibt es einen Parkplatz?','Gibt es Frühstück?','Wie kann ich buchen?'])}
+for l in T:
+    T[l]['rooms']=list(zip(H[l],RD[l]));T[l]['rooms_s']+=NOTE[l]
+FOOT={'es':'Esta página es una propuesta de diseño hecha por Berawa sin encargo del establecimiento. Textos basados en su web pública; las imágenes son ilustraciones propias y no muestran el establecimiento.',
+'en':'This page is a design proposal made by Berawa without any commission from the business. Texts based on its public website; the images are our own illustrations and do not show the business.',
+'fr':"Cette page est une proposition de design réalisée par Berawa sans commande de l'établissement. Textes basés sur son site public ; les images sont des illustrations propres et ne montrent pas l'établissement.",
+'de':'Diese Seite ist ein Designvorschlag von Berawa, ohne Auftrag der Unterkunft erstellt. Die Texte beruhen auf deren öffentlicher Website; die Bilder sind eigene Illustrationen und zeigen die Unterkunft nicht.'}
+R='https://www.lagitanilla.com/motor-reservas/';RN='https://www.lagitanilla.com/en/booking-engine/'
+BOOK=dict(mode='engine',url=dict(es=R,en=RN,fr=RN,de=RN))
+D=dict(name='La Gitanilla',ac='#3b1f1a',ac2='#9a4a2c',ac2_a11y='#86401f',book=BOOK,around=[],foot=FOOT,
+ address='C/ Barranco, 12 · 11403 Jerez de la Frontera',phones=['+34 680 795 288'],emails=['info@lagitanilla.com','reservas@lagitanilla.com'],maps='La Gitanilla, Calle Barranco 12, 11403 Jerez de la Frontera',t=T)
+META=dict(repo='demo-hotel-la-gitanilla-jerez',name='La Gitanilla',legal_name='Fonda b12, SL, CIF B67728071 (aviso legal de su web)',registry_ids=['B67728071'],
+ url='https://www.lagitanilla.com/',domain='lagitanilla.com',municipality='Jerez de la Frontera',province='Cádiz',sector='alojamiento con encanto en una casa palacete de 1865 en el centro de Jerez',
+ read_at='2026-11-02T10:40:00+01:00',created_at='2026-11-02T10:38:00+01:00',built_at='2026-11-02T11:05:00+01:00',audit_date='2026-11-02T10:40:00+01:00',
+ rating=dict(value=4.8,coincide=['tel','web'],date='2026-10-29',url='https://www.google.com/maps/place/La+Gitanilla+Alojamiento+%26+Encanto+Jerez/@36.6837587,-6.1416928,17z'),
+ book=dict(mode='engine',url=R,note='motor MrPlan incrustado en su pagina /motor-reservas/ (botón Reservar de su web): https://www.lagitanilla.com/motor-reservas/ (es) y /en/booking-engine/ (en/fr/de), HTTP 200 los dos (02/11/2026 10:58).'),first_of_type='no aplica: alojamiento con precedente en demos anteriores')
+QS={
+'es':[('¿Qué habitaciones tenéis?','K01'),('¿Cómo son los áticos?','K02'),('¿Qué tienen las habitaciones?','K03'),('¿Hay televisión?','K04'),('¿Tenéis parking?','K05'),('¿Hay desayuno?','K06'),('¿Dónde estáis?','K07'),('¿Cómo reservo?','K08'),('¿Podéis confirmarme disponibilidad para mañana?','K08'),('¿Qué experiencias ofrecéis?','K09'),('¿De qué año es la casa?','K10'),('¿Cuál es vuestro teléfono?','K11'),('¿Ayudáis con los traslados?','K12'),('¿Cuánto cuesta la noche?',None),('¿Tenéis piscina?',None)],
+'en':[('Which rooms do you have?','K01'),('What are the penthouses like?','K02'),('What do the rooms include?','K03'),('Is there a TV?','K04'),('Do you have parking?','K05'),('Is there breakfast?','K06'),('Where are you?','K07'),('How do I book?','K08'),('Can you confirm availability for tomorrow?','K08'),('What experiences do you offer?','K09'),('How old is the house?','K10'),('What is your phone number?','K11'),('Do you help with transfers?','K12'),('How much is a night?',None),('Do you have a pool?',None)],
+'fr':[('Quelles chambres avez-vous ?','K01'),('Comment sont les attiques ?','K02'),('Que comprennent les chambres ?','K03'),('Y a-t-il une télévision ?','K04'),('Avez-vous un parking ?','K05'),('Y a-t-il un petit-déjeuner ?','K06'),('Où êtes-vous ?','K07'),('Comment réserver ?','K08'),('Pouvez-vous me confirmer la disponibilité pour demain ?','K08'),('Quelles expériences proposez-vous ?','K09'),('De quelle année date la maison ?','K10'),('Quel est votre numéro de téléphone ?','K11'),('Aidez-vous pour les transferts ?','K12'),('Combien coûte la nuit ?',None),('Avez-vous une piscine ?',None)],
+'de':[('Welche Zimmer gibt es?','K01'),('Wie sind die Dachapartments?','K02'),('Was bieten die Zimmer?','K03'),('Gibt es einen Fernseher?','K04'),('Gibt es einen Parkplatz?','K05'),('Gibt es Frühstück?','K06'),('Wo liegt das Haus?','K07'),('Wie kann ich buchen?','K08'),('Können Sie mir die Verfügbarkeit für morgen bestätigen?','K08'),('Welche Erlebnisse bieten Sie an?','K09'),('Aus welchem Jahr stammt das Haus?','K10'),('Wie ist Ihre Telefonnummer?','K11'),('Helfen Sie bei Transfers?','K12'),('Was kostet eine Nacht?',None),('Haben Sie einen Pool?',None)]}

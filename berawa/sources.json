@@ -1,0 +1,53 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.lagitanilla.com/",
+ "read_at": "2026-11-02T10:40:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.lagitanilla.com/",
+   "sha256": "71f9ac6e0f110bd43d31304c6594119676e2a93420809234d38eaf86c22d95ff",
+   "chars": 12225
+  },
+  {
+   "url": "https://www.lagitanilla.com/alojamiento-jerez-atico/",
+   "sha256": "122bb2bfabc2b5b8b33856e7c38ed865828ca33fd876390434eda207ad473997",
+   "chars": 3605
+  },
+  {
+   "url": "https://www.lagitanilla.com/contacto/",
+   "sha256": "e5a6bec237a48529948cabaa6c93ba87147de4c4b53b075745df70dfd4d4af9e",
+   "chars": 3116
+  },
+  {
+   "url": "https://www.lagitanilla.com/doble-economica/",
+   "sha256": "6ca851cad5b5f308e6b62bb835d78d6960bcda0ce959ff5e7ed26a9c1fe82d82",
+   "chars": 3449
+  },
+  {
+   "url": "https://www.lagitanilla.com/doble-estandar/",
+   "sha256": "ad4dfecdfa0145677908cc8369a975129029935d622d8a756015119a69643fbc",
+   "chars": 3563
+  },
+  {
+   "url": "https://www.lagitanilla.com/doble-superior/",
+   "sha256": "bc18da24c929b550fc132378424fa67306c15dab7a362392e03c7b1d61f940a8",
+   "chars": 3600
+  },
+  {
+   "url": "https://www.lagitanilla.com/experiencias/",
+   "sha256": "037fb0db7216f5769c2f3e23f173eba9206bbf1c81ccb70732d669732d04b929",
+   "chars": 6395
+  }
+ ],
+ "other_pages_read": [
+  "https://www.lagitanilla.com/blog/",
+  "https://www.lagitanilla.com/de/la-gitanilla/",
+  "https://www.lagitanilla.com/en/home/",
+  "https://www.lagitanilla.com/escapada-jerez-otono/",
+  "https://www.lagitanilla.com/galeria/",
+  "https://www.lagitanilla.com/habitaciones-jerez/",
+  "https://www.lagitanilla.com/motor-reservas/",
+  "https://www.lagitanilla.com/nosotras/"
+ ]
+}
