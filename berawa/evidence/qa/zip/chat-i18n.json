@@ -1,0 +1,421 @@
+{
+ "url": "http://127.0.0.1:43601/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene dos áticos con salida a la terraza, la Habitación Superior (la más amplia, con bañera), seis habitaciones Doble Estándar en torno al p"
+    },
+    {
+     "q": "¿Cómo son los áticos?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Los dos áticos tienen salida directa a la terraza con vistas al centro histórico y a la Catedral. Tienen dormitorio, salón y baño completo, "
+    },
+    {
+     "q": "¿Qué tienen las habitaciones?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Todas tienen wifi de banda ancha, secador, plancha, limpieza diaria, baño en suite, calefacción y aire acondicionado, caja fuerte y amenitie"
+    },
+    {
+     "q": "¿Hay televisión?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "No: para buscar el confort y la desconexión, las habitaciones no tienen TV y son un espacio libre de ruidos."
+    },
+    {
+     "q": "¿Tenéis parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Su web incluye parking privado entre los servicios, y reservando directamente con ellos indica un descuento en el parking; consulta las cond"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sí, ofrecen desayuno buffet, y hay un bar honesto abierto 24 h."
+    },
+    {
+     "q": "¿Dónde estáis?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Está en la C/ Barranco, 12, 11403 Jerez de la Frontera (Cádiz), a tres minutos a pie de la Catedral y el Alcázar."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@lagitanilla.com o llamar al 680 795 288. Este asistente no con"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@lagitanilla.com o llamar al 680 795 288. Este asistente no con"
+    },
+    {
+     "q": "¿Qué experiencias ofrecéis?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Proponen experiencias como una cena gastronómica con productos locales, un paseo en coche de caballos por el centro, tapeo con flamenco en d"
+    },
+    {
+     "q": "¿De qué año es la casa?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Es una casa palacete típica andaluza de 1865. Su patio central, antiguo punto de reunión de los vecinos, es hoy un salón, y dentro se expone"
+    },
+    {
+     "q": "¿Cuál es vuestro teléfono?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono: 680 795 288. Correo: info@lagitanilla.com (reservas: reservas@lagitanilla.com). Consultar por WhatsApp →"
+    },
+    {
+     "q": "¿Ayudáis con los traslados?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sí: entre sus servicios están la ayuda con traslados y la organización de visitas."
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 680 795 288 · info@lagitanilla.com · reservas@lagitanilla.com."
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 680 795 288 · info@lagitanilla.com · reservas@lagitanilla.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Tenéis parking?",
+    "¿Hay desayuno?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are two penthouses with terrace access, the Superior Room (the largest, with bathtub), six Standard Double rooms around the patio and "
+    },
+    {
+     "q": "What are the penthouses like?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "The two penthouses have direct access to the terrace with views of the old town and the Cathedral. They have a bedroom, living room and full"
+    },
+    {
+     "q": "What do the rooms include?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "All have broadband wifi, hairdryer, iron, daily cleaning, en-suite bathroom, heating and air conditioning, safe and natural amenities."
+    },
+    {
+     "q": "Is there a TV?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "No: to offer comfort and disconnection, the rooms have no TV and are a noise-free space."
+    },
+    {
+     "q": "Do you have parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Their website lists private parking among the services, and booking directly with them mentions a parking discount; check the conditions whe"
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Yes, they offer a buffet breakfast, and there is a 24-hour honesty bar."
+    },
+    {
+     "q": "Where are you?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It is at C/ Barranco, 12, 11403 Jerez de la Frontera (Cádiz), three minutes’ walk from the Cathedral and the Alcázar."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can book through their booking engine (Book button), email reservas@lagitanilla.com or call +34 680 795 288. This assistant does not con"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can book through their booking engine (Book button), email reservas@lagitanilla.com or call +34 680 795 288. This assistant does not con"
+    },
+    {
+     "q": "What experiences do you offer?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "They offer experiences such as a gastronomic dinner with local produce, a horse-drawn carriage ride through the centre, tapas with live flam"
+    },
+    {
+     "q": "How old is the house?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "It is a typical Andalusian mansion from 1865. Its central patio, once the neighbours’ meeting point, is now a lounge, and inside you can see"
+    },
+    {
+     "q": "What is your phone number?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone: +34 680 795 288. Email: info@lagitanilla.com (bookings: reservas@lagitanilla.com). Ask on WhatsApp →"
+    },
+    {
+     "q": "Do you help with transfers?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Yes: their services include help with transfers and organising visits."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 680 795 288 · info@lagitanilla.com · reservas@lagitanilla.com."
+    },
+    {
+     "q": "Do you have a pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 680 795 288 · info@lagitanilla.com · reservas@lagitanilla.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Do you have parking?",
+    "Is there breakfast?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat1"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y a deux attiques avec accès à la terrasse, la Chambre Supérieure (la plus grande, avec baignoire), six chambres Doubles Standard autour "
+    },
+    {
+     "q": "Comment sont les attiques ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les deux attiques ont un accès direct à la terrasse avec vue sur le centre historique et la cathédrale. Chambre, salon et salle de bains com"
+    },
+    {
+     "q": "Que comprennent les chambres ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Toutes ont wifi haut débit, sèche-cheveux, fer à repasser, ménage quotidien, salle de bains privative, chauffage et climatisation, coffre-fo"
+    },
+    {
+     "q": "Y a-t-il une télévision ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Non : pour le confort et la déconnexion, les chambres n’ont pas de TV et sont un espace sans bruit."
+    },
+    {
+     "q": "Avez-vous un parking ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Leur site mentionne un parking privé parmi les services, et une réduction sur le parking en réservant directement ; vérifiez les conditions "
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Oui, ils proposent un petit-déjeuner buffet, et il y a un bar en libre-service 24 h/24."
+    },
+    {
+     "q": "Où êtes-vous ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "La maison se trouve C/ Barranco, 12, 11403 Jerez de la Frontera (Cadix), à trois minutes à pied de la cathédrale et de l’Alcázar."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver via leur moteur de réservation (bouton Réserver), écrire à reservas@lagitanilla.com ou appeler le +34 680 795 288. Cet "
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver via leur moteur de réservation (bouton Réserver), écrire à reservas@lagitanilla.com ou appeler le +34 680 795 288. Cet "
+    },
+    {
+     "q": "Quelles expériences proposez-vous ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Ils proposent des expériences comme un dîner gastronomique aux produits locaux, une promenade en calèche dans le centre, des tapas avec flam"
+    },
+    {
+     "q": "De quelle année date la maison ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "C’est une demeure andalouse typique de 1865. Son patio central, ancien lieu de rencontre des voisins, est aujourd’hui un salon, et on y expo"
+    },
+    {
+     "q": "Quel est votre numéro de téléphone ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone : +34 680 795 288. E-mail : info@lagitanilla.com (réservations : reservas@lagitanilla.com). Écrire sur WhatsApp →"
+    },
+    {
+     "q": "Aidez-vous pour les transferts ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Oui : leurs services incluent l’aide pour les transferts et l’organisation de visites."
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 680 795 288 · info@lagitanilla.com · reservas@lagitanilla.com."
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 680 795 288 · info@lagitanilla.com · reservas@lagitanilla.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Avez-vous un parking ?",
+    "Y a-t-il un petit-déjeuner ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt zwei Dachapartments mit Terrassenzugang, das Superior-Zimmer (das größte, mit Badewanne), sechs Standard-Doppelzimmer rund um den In"
+    },
+    {
+     "q": "Wie sind die Dachapartments?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Die zwei Dachapartments haben direkten Zugang zur Terrasse mit Blick auf die Altstadt und die Kathedrale. Schlafzimmer, Wohnzimmer und kompl"
+    },
+    {
+     "q": "Was bieten die Zimmer?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Alle haben Breitband-WLAN, Föhn, Bügeleisen, tägliche Reinigung, eigenes Bad, Heizung und Klimaanlage, Safe und natürliche Pflegeprodukte."
+    },
+    {
+     "q": "Gibt es einen Fernseher?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Nein: Für Komfort und Abschalten haben die Zimmer keinen Fernseher und sind ein ruhiger Ort."
+    },
+    {
+     "q": "Gibt es einen Parkplatz?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Die Website nennt einen Privatparkplatz unter den Leistungen und bei Direktbuchung einen Parkrabatt; bitte die Bedingungen bei der Buchung e"
+    },
+    {
+     "q": "Gibt es Frühstück?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Ja, es gibt ein Frühstücksbuffet und eine Honesty-Bar rund um die Uhr (24 h)."
+    },
+    {
+     "q": "Wo liegt das Haus?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Das Haus liegt in der C/ Barranco, 12, 11403 Jerez de la Frontera (Cádiz), drei Gehminuten von Kathedrale und Alcázar."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine buchen (Schaltfläche Buchen), an reservas@lagitanilla.com schreiben oder +34 680 795 288 anrufen. Diese"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine buchen (Schaltfläche Buchen), an reservas@lagitanilla.com schreiben oder +34 680 795 288 anrufen. Diese"
+    },
+    {
+     "q": "Welche Erlebnisse bieten Sie an?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Angeboten werden Erlebnisse wie ein Gourmet-Abendessen mit lokalen Produkten, eine Kutschfahrt durch das Zentrum, Tapas mit Live-Flamenco in"
+    },
+    {
+     "q": "Aus welchem Jahr stammt das Haus?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Es ist ein typisch andalusisches Stadtpalais von 1865. Der Innenhof, früher Treffpunkt der Nachbarn, ist heute ein Salon, und im Haus hängt "
+    },
+    {
+     "q": "Wie ist Ihre Telefonnummer?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telefon: +34 680 795 288. E-Mail: info@lagitanilla.com (Buchungen: reservas@lagitanilla.com). Per WhatsApp schreiben →"
+    },
+    {
+     "q": "Helfen Sie bei Transfers?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Ja: Zu den Leistungen gehören Hilfe bei Transfers und die Organisation von Ausflügen."
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 680 795 288 · info@lagitanilla.com · reservas@lagitanilla.com."
+    },
+    {
+     "q": "Haben Sie einen Pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 680 795 288 · info@lagitanilla.com · reservas@lagitanilla.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Gibt es einen Parkplatz?",
+    "Gibt es Frühstück?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}

@@ -1,0 +1,595 @@
+{
+ "schema": "berawa-knowledge/1",
+ "project": "demo-hotel-la-gitanilla-jerez",
+ "source_site": "https://www.lagitanilla.com/",
+ "source_read_at": "2026-11-02T10:40:00+01:00",
+ "note": "Respuestas solo con datos publicados en la web del negocio. Sin coincidencia: el asistente dice que no dispone de la informacion y ofrece contacto.",
+ "entries": [
+  {
+   "id": "K01",
+   "topic": "habitaciones",
+   "keys": {
+    "es": [
+     "que habitaciones",
+     "tipos de habitacion",
+     "habitacion superior",
+     "estandar",
+     "acogedora"
+    ],
+    "en": [
+     "which rooms",
+     "room types",
+     "superior room",
+     "standard",
+     "cosy"
+    ],
+    "fr": [
+     "quelles chambres",
+     "types de chambre",
+     "superieure",
+     "standard",
+     "cosy"
+    ],
+    "de": [
+     "welche zimmer",
+     "zimmertypen",
+     "superior",
+     "standardzimmer",
+     "gemutlich"
+    ]
+   },
+   "a": {
+    "es": "Tiene dos áticos con salida a la terraza, la Habitación Superior (la más amplia, con bañera), seis habitaciones Doble Estándar en torno al patio y la Habitación Acogedora, con cama de 1,35.",
+    "en": "There are two penthouses with terrace access, the Superior Room (the largest, with bathtub), six Standard Double rooms around the patio and the Cosy Room, with a 1.35 m bed.",
+    "fr": "Il y a deux attiques avec accès à la terrasse, la Chambre Supérieure (la plus grande, avec baignoire), six chambres Doubles Standard autour du patio et la Chambre Cosy, avec un lit de 1,35 m.",
+    "de": "Es gibt zwei Dachapartments mit Terrassenzugang, das Superior-Zimmer (das größte, mit Badewanne), sechs Standard-Doppelzimmer rund um den Innenhof und das Gemütliche Zimmer mit 1,35-m-Bett."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/alojamiento-jerez-atico/",
+     "quote": "encontramos nuestros dos amplios áticos"
+    },
+    {
+     "url": "https://www.lagitanilla.com/doble-superior/",
+     "quote": "se trata de la habitación más amplia de la casa, con cama de matrimonio de 1.80cm, balcones al exterior y la única con bañera"
+    },
+    {
+     "url": "https://www.lagitanilla.com/doble-estandar/",
+     "quote": "nuestras seis habitaciones «Doble Estándar» se encuentran en torno a nuestro patio principal"
+    },
+    {
+     "url": "https://www.lagitanilla.com/doble-economica/",
+     "quote": "Con una cama de matrimonio de 1,35"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K02",
+   "topic": "aticos",
+   "keys": {
+    "es": [
+     "atico",
+     "terraza",
+     "salon",
+     "cocina",
+     "larga estancia"
+    ],
+    "en": [
+     "penthouse",
+     "terrace",
+     "living room",
+     "kitchen",
+     "longer stay"
+    ],
+    "fr": [
+     "attique",
+     "terrasse",
+     "salon",
+     "cuisine",
+     "long sejour"
+    ],
+    "de": [
+     "dachapartment",
+     "terrasse",
+     "wohnzimmer",
+     "kuche",
+     "langere"
+    ]
+   },
+   "a": {
+    "es": "Los dos áticos tienen salida directa a la terraza con vistas al centro histórico y a la Catedral. Tienen dormitorio, salón y baño completo, con menaje, frigorífico, microondas, tostadora y cafetera: ideales para estancias más largas.",
+    "en": "The two penthouses have direct access to the terrace with views of the old town and the Cathedral. They have a bedroom, living room and full bathroom, with kitchenware, fridge, microwave, toaster and coffee maker: ideal for longer stays.",
+    "fr": "Les deux attiques ont un accès direct à la terrasse avec vue sur le centre historique et la cathédrale. Chambre, salon et salle de bains complète, avec vaisselle, réfrigérateur, micro-ondes, grille-pain et cafetière : idéaux pour les longs séjours.",
+    "de": "Die zwei Dachapartments haben direkten Zugang zur Terrasse mit Blick auf die Altstadt und die Kathedrale. Schlafzimmer, Wohnzimmer und komplettes Bad, mit Geschirr, Kühlschrank, Mikrowelle, Toaster und Kaffeemaschine: ideal für längere Aufenthalte."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/alojamiento-jerez-atico/",
+     "quote": "Tienen salida directa a nuestra terraza, donde podrá disfrutar de unas vistas al centro histórico de la ciudad y de nuestra Catedral"
+    },
+    {
+     "url": "https://www.lagitanilla.com/alojamiento-jerez-atico/",
+     "quote": "Están compuestos por un dormitorio, un salón y un baño completo; (además cuenta con el menaje necesario, frigorífico, microondas, tostadora y cafetera). Todo ello los convierten en el lugar ideal para estancias más largas"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K03",
+   "topic": "equipamiento",
+   "keys": {
+    "es": [
+     "tienen las habitaciones",
+     "wifi",
+     "aire acondicionado",
+     "calefaccion",
+     "secador",
+     "caja fuerte"
+    ],
+    "en": [
+     "include",
+     "wifi",
+     "air conditioning",
+     "heating",
+     "hairdryer",
+     "safe"
+    ],
+    "fr": [
+     "comprennent",
+     "wifi",
+     "climatisation",
+     "chauffage",
+     "seche-cheveux",
+     "coffre"
+    ],
+    "de": [
+     "bieten die zimmer",
+     "wlan",
+     "klimaanlage",
+     "heizung",
+     "fohn",
+     "safe"
+    ]
+   },
+   "a": {
+    "es": "Todas tienen wifi de banda ancha, secador, plancha, limpieza diaria, baño en suite, calefacción y aire acondicionado, caja fuerte y amenities naturales.",
+    "en": "All have broadband wifi, hairdryer, iron, daily cleaning, en-suite bathroom, heating and air conditioning, safe and natural amenities.",
+    "fr": "Toutes ont wifi haut débit, sèche-cheveux, fer à repasser, ménage quotidien, salle de bains privative, chauffage et climatisation, coffre-fort et produits d’accueil naturels.",
+    "de": "Alle haben Breitband-WLAN, Föhn, Bügeleisen, tägliche Reinigung, eigenes Bad, Heizung und Klimaanlage, Safe und natürliche Pflegeprodukte."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/doble-estandar/",
+     "quote": "Wifi de banda ancha Secador de pelo en habitaciones Plancha y planchero Plancha de pelo bajo petición Limpieza diaria de las habitaciones Cuarto de baño en suite Calefacción y aire acondicionado Caja fuerte disponible Amenities naturales"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K04",
+   "topic": "tv",
+   "keys": {
+    "es": [
+     "television",
+     "tele",
+     " tv",
+     "ruido"
+    ],
+    "en": [
+     "television",
+     " tv",
+     "noise"
+    ],
+    "fr": [
+     "television",
+     "tele",
+     " tv",
+     "bruit"
+    ],
+    "de": [
+     "fernseh",
+     " tv",
+     "larm",
+     "ruhe"
+    ]
+   },
+   "a": {
+    "es": "No: para buscar el confort y la desconexión, las habitaciones no tienen TV y son un espacio libre de ruidos.",
+    "en": "No: to offer comfort and disconnection, the rooms have no TV and are a noise-free space.",
+    "fr": "Non : pour le confort et la déconnexion, les chambres n’ont pas de TV et sont un espace sans bruit.",
+    "de": "Nein: Für Komfort und Abschalten haben die Zimmer keinen Fernseher und sind ein ruhiger Ort."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/doble-estandar/",
+     "quote": "Buscamos el confort, la tranquilidad y desconexión de nuestros huéspedes, por lo que las habitaciones no disponen de TV, obteniendo un espacio libre de ruidos"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K05",
+   "topic": "parking",
+   "keys": {
+    "es": [
+     "parking",
+     "aparc",
+     "garaje",
+     "coche"
+    ],
+    "en": [
+     "parking",
+     "garage",
+     "car "
+    ],
+    "fr": [
+     "parking",
+     "stationn",
+     "voiture"
+    ],
+    "de": [
+     "parkplatz",
+     "parken",
+     "garage",
+     " auto"
+    ]
+   },
+   "a": {
+    "es": "Su web incluye parking privado entre los servicios, y reservando directamente con ellos indica un descuento en el parking; consulta las condiciones al reservar.",
+    "en": "Their website lists private parking among the services, and booking directly with them mentions a parking discount; check the conditions when booking.",
+    "fr": "Leur site mentionne un parking privé parmi les services, et une réduction sur le parking en réservant directement ; vérifiez les conditions lors de la réservation.",
+    "de": "Die Website nennt einen Privatparkplatz unter den Leistungen und bei Direktbuchung einen Parkrabatt; bitte die Bedingungen bei der Buchung erfragen."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/",
+     "quote": "Parking privado*"
+    },
+    {
+     "url": "https://www.lagitanilla.com/",
+     "quote": "Ventajas de reservar con nosotros Mejor precio garantizado Precio especial desayuno 10% de descuento en parking"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K06",
+   "topic": "desayuno",
+   "keys": {
+    "es": [
+     "desayuno",
+     "desayunar",
+     "bar honesto"
+    ],
+    "en": [
+     "breakfast",
+     "honesty bar"
+    ],
+    "fr": [
+     "petit-dejeuner",
+     "petit dejeuner",
+     "bar"
+    ],
+    "de": [
+     "fruhstuck",
+     "honesty",
+     "bar"
+    ]
+   },
+   "a": {
+    "es": "Sí, ofrecen desayuno buffet, y hay un bar honesto abierto 24 h.",
+    "en": "Yes, they offer a buffet breakfast, and there is a 24-hour honesty bar.",
+    "fr": "Oui, ils proposent un petit-déjeuner buffet, et il y a un bar en libre-service 24 h/24.",
+    "de": "Ja, es gibt ein Frühstücksbuffet und eine Honesty-Bar rund um die Uhr (24 h)."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/",
+     "quote": "Desayuno buffet Ameninites Naturales Bar Honesto 24h"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K07",
+   "topic": "ubicacion",
+   "keys": {
+    "es": [
+     "donde estais",
+     "direccion",
+     "ubicacion",
+     "catedral",
+     "alcazar"
+    ],
+    "en": [
+     "where are",
+     "address",
+     "location",
+     "cathedral"
+    ],
+    "fr": [
+     "ou etes",
+     "adresse",
+     "situe",
+     "cathedrale"
+    ],
+    "de": [
+     "wo liegt",
+     "wo ist",
+     "adresse",
+     "kathedrale"
+    ]
+   },
+   "a": {
+    "es": "Está en la C/ Barranco, 12, 11403 Jerez de la Frontera (Cádiz), a tres minutos a pie de la Catedral y el Alcázar.",
+    "en": "It is at C/ Barranco, 12, 11403 Jerez de la Frontera (Cádiz), three minutes’ walk from the Cathedral and the Alcázar.",
+    "fr": "La maison se trouve C/ Barranco, 12, 11403 Jerez de la Frontera (Cadix), à trois minutes à pied de la cathédrale et de l’Alcázar.",
+    "de": "Das Haus liegt in der C/ Barranco, 12, 11403 Jerez de la Frontera (Cádiz), drei Gehminuten von Kathedrale und Alcázar."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/contacto/",
+     "quote": "C/Barranco, 12 C.P. 11403 Jerez de la Frontera (Cádiz)"
+    },
+    {
+     "url": "https://www.lagitanilla.com/",
+     "quote": "Nuestra ubicación a tres minutos a pie de la Catedral y Alcázar"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K08",
+   "topic": "reservar",
+   "keys": {
+    "es": [
+     "reserv",
+     "disponib",
+     "confirm"
+    ],
+    "en": [
+     "book",
+     "reserv",
+     "availab",
+     "confirm"
+    ],
+    "fr": [
+     "reserv",
+     "disponib",
+     "confirm"
+    ],
+    "de": [
+     "buch",
+     "reserv",
+     "verfugbar",
+     "bestatig"
+    ]
+   },
+   "a": {
+    "es": "Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@lagitanilla.com o llamar al 680 795 288. Este asistente no confirma disponibilidad ni reservas.",
+    "en": "You can book through their booking engine (Book button), email reservas@lagitanilla.com or call +34 680 795 288. This assistant does not confirm availability or bookings.",
+    "fr": "Vous pouvez réserver via leur moteur de réservation (bouton Réserver), écrire à reservas@lagitanilla.com ou appeler le +34 680 795 288. Cet assistant ne confirme ni disponibilité ni réservation.",
+    "de": "Sie können über die Buchungsmaschine buchen (Schaltfläche Buchen), an reservas@lagitanilla.com schreiben oder +34 680 795 288 anrufen. Dieser Assistent bestätigt weder Verfügbarkeit noch Buchungen."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/",
+     "quote": "Reserva tu estancia Reserva tu estancia Reservar"
+    },
+    {
+     "url": "https://www.lagitanilla.com/contacto/",
+     "quote": "+34 680 795 288 info@lagitanilla.com info@lagitanilla.com reservas@lagitanilla.com"
+    }
+   ],
+   "cta": true
+  },
+  {
+   "id": "K09",
+   "topic": "experiencias",
+   "keys": {
+    "es": [
+     "experiencia",
+     "flamenco",
+     "caballo",
+     "globo",
+     "romantico"
+    ],
+    "en": [
+     "experience",
+     "flamenco",
+     "horse",
+     "balloon",
+     "romantic"
+    ],
+    "fr": [
+     "experience",
+     "flamenco",
+     "cheval",
+     "montgolfiere",
+     "romantique"
+    ],
+    "de": [
+     "erlebnis",
+     "flamenco",
+     "kutsche",
+     "ballon",
+     "romantisch"
+    ]
+   },
+   "a": {
+    "es": "Proponen experiencias como una cena gastronómica con productos locales, un paseo en coche de caballos por el centro, tapeo con flamenco en directo en un tabanco, un paquete romántico y un paseo en globo por la Sierra de Cádiz.",
+    "en": "They offer experiences such as a gastronomic dinner with local produce, a horse-drawn carriage ride through the centre, tapas with live flamenco in a tabanco, a romantic package and a balloon flight over the Sierra de Cádiz.",
+    "fr": "Ils proposent des expériences comme un dîner gastronomique aux produits locaux, une promenade en calèche dans le centre, des tapas avec flamenco en direct dans un tabanco, un forfait romantique et un vol en montgolfière au-dessus de la Sierra de Cádiz.",
+    "de": "Angeboten werden Erlebnisse wie ein Gourmet-Abendessen mit lokalen Produkten, eine Kutschfahrt durch das Zentrum, Tapas mit Live-Flamenco in einem Tabanco, ein Romantikpaket und eine Ballonfahrt über die Sierra de Cádiz."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/experiencias/",
+     "quote": "Una propuesta para disfrutar de la cocina con productos locales de Jerez"
+    },
+    {
+     "url": "https://www.lagitanilla.com/experiencias/",
+     "quote": "un paseo en coche de caballos por el centro de la ciudad"
+    },
+    {
+     "url": "https://www.lagitanilla.com/experiencias/",
+     "quote": "Tapeo en un tradicional tabanco jerezano Espectáculo de flamenco en directo"
+    },
+    {
+     "url": "https://www.lagitanilla.com/experiencias/",
+     "quote": "Paquete romántico"
+    },
+    {
+     "url": "https://www.lagitanilla.com/experiencias/",
+     "quote": "Una experiencia única para descubrir los paisajes de la Sierra de Cádiz desde el aire"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K10",
+   "topic": "historia",
+   "keys": {
+    "es": [
+     "historia",
+     "1865",
+     "patio",
+     "casa",
+     "arte"
+    ],
+    "en": [
+     "history",
+     "1865",
+     "patio",
+     "house",
+     "art"
+    ],
+    "fr": [
+     "histoire",
+     "1865",
+     "patio",
+     "maison",
+     "art"
+    ],
+    "de": [
+     "geschichte",
+     "1865",
+     "innenhof",
+     "haus",
+     "kunst"
+    ]
+   },
+   "a": {
+    "es": "Es una casa palacete típica andaluza de 1865. Su patio central, antiguo punto de reunión de los vecinos, es hoy un salón, y dentro se expone la colección de arte del pintor David Brenes.",
+    "en": "It is a typical Andalusian mansion from 1865. Its central patio, once the neighbours’ meeting point, is now a lounge, and inside you can see the art collection of painter David Brenes.",
+    "fr": "C’est une demeure andalouse typique de 1865. Son patio central, ancien lieu de rencontre des voisins, est aujourd’hui un salon, et on y expose la collection d’art du peintre David Brenes.",
+    "de": "Es ist ein typisch andalusisches Stadtpalais von 1865. Der Innenhof, früher Treffpunkt der Nachbarn, ist heute ein Salon, und im Haus hängt die Kunstsammlung des Malers David Brenes."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/",
+     "quote": "La Gitanilla es una casa palacete típico andaluz de 1865"
+    },
+    {
+     "url": "https://www.lagitanilla.com/",
+     "quote": "Su encantador patio era antiguamente el punto de reunión de los vecinos que allí convivían, convertido actualmente en un acogedor salón"
+    },
+    {
+     "url": "https://www.lagitanilla.com/",
+     "quote": "la distinguida colección de arte del pintor David Brenes"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K11",
+   "topic": "contacto",
+   "keys": {
+    "es": [
+     "telefono",
+     "correo",
+     "email",
+     "contacto",
+     "llamar"
+    ],
+    "en": [
+     "phone",
+     "email",
+     "contact",
+     "call"
+    ],
+    "fr": [
+     "telephone",
+     "courriel",
+     "email",
+     "contact",
+     "appeler"
+    ],
+    "de": [
+     "telefon",
+     "e-mail",
+     "email",
+     "kontakt",
+     "anrufen"
+    ]
+   },
+   "a": {
+    "es": "Teléfono: 680 795 288. Correo: info@lagitanilla.com (reservas: reservas@lagitanilla.com).",
+    "en": "Phone: +34 680 795 288. Email: info@lagitanilla.com (bookings: reservas@lagitanilla.com).",
+    "fr": "Téléphone : +34 680 795 288. E-mail : info@lagitanilla.com (réservations : reservas@lagitanilla.com).",
+    "de": "Telefon: +34 680 795 288. E-Mail: info@lagitanilla.com (Buchungen: reservas@lagitanilla.com)."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/contacto/",
+     "quote": "+34 680 795 288 info@lagitanilla.com info@lagitanilla.com reservas@lagitanilla.com"
+    }
+   ],
+   "cta": true
+  },
+  {
+   "id": "K12",
+   "topic": "traslados",
+   "keys": {
+    "es": [
+     "traslado",
+     "visitas",
+     "aeropuerto",
+     "excursion"
+    ],
+    "en": [
+     "transfer",
+     "visits",
+     "airport",
+     "excursion"
+    ],
+    "fr": [
+     "transfert",
+     "visites",
+     "aeroport",
+     "excursion"
+    ],
+    "de": [
+     "transfer",
+     "ausfluge",
+     "flughafen",
+     "besichtigung"
+    ]
+   },
+   "a": {
+    "es": "Sí: entre sus servicios están la ayuda con traslados y la organización de visitas.",
+    "en": "Yes: their services include help with transfers and organising visits.",
+    "fr": "Oui : leurs services incluent l’aide pour les transferts et l’organisation de visites.",
+    "de": "Ja: Zu den Leistungen gehören Hilfe bei Transfers und die Organisation von Ausflügen."
+   },
+   "sources": [
+    {
+     "url": "https://www.lagitanilla.com/",
+     "quote": "Ayuda con traslados Organización de visitas"
+    }
+   ],
+   "cta": false
+  }
+ ]
+}
